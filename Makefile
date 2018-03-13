@@ -1,5 +1,5 @@
 NS ?= docker.io/rammstein4o
-VERSION ?= 0.3
+VERSION ?= 0.3.0
 UID2USE ?= 1000
 GID2USE ?= 1000
 
