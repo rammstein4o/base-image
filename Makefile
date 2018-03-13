@@ -3,7 +3,7 @@ VERSION ?= 0.3.0
 UID2USE ?= 1000
 GID2USE ?= 1000
 
-IMAGE_NAME ?= base
+IMAGE_NAME ?= base-image
 CONTAINER_NAME ?= base
 CONTAINER_INSTANCE ?= default
 

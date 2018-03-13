@@ -15,7 +15,7 @@ ENV USERNAME ${USERNAME}
 
 # We will use supervisor for managing services
 RUN apt-get update -y && apt-get upgrade -y \
-    && apt-get install --no-install-recommends --no-install-suggests -y supervisor cron \
+    && apt-get install --no-install-recommends --no-install-suggests -y supervisor cron gettext-base nano \
     && groupadd -g ${GID} ${USERNAME} \
     && useradd -g ${GID} -u ${UID} -m -d /home/${USERNAME} -s /bin/bash ${USERNAME} \
     && mkdir -p /app \
